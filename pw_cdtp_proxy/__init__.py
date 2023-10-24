@@ -5,7 +5,7 @@ import logging
 import os.path
 from typing import Optional
 
-from browser.utils import find_chrome_executable_path
+from .utils import find_chrome_executable_path
 from playwright.async_api import async_playwright, BrowserContext, Error, Browser, Playwright
 
 
