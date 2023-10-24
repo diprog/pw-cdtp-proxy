@@ -33,6 +33,7 @@ class ChromeProcess:
             f'--remote-debugging-port={self.remote_debugging_port}',
             '--no-sandbox',
             '--disable-sync',
+            '--proxy-server=socks5://127.0.0.1:8888'
         ]
 
         if self.user_data_dir:
